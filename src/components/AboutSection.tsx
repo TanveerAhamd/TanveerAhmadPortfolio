@@ -180,7 +180,7 @@ const AboutSection = () => {
             >
               <h3 className="text-2xl font-bold">Tanveer Ahmad</h3>
               <p className="text-muted-foreground">
-                MERN Stack Student
+                Junior MERN-Stack Developer
               </p>
             </motion.div>
 
