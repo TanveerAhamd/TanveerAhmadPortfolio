@@ -27,7 +27,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Databases",
     icon: Database,
-    skills: ["MongoDB", "MySQL" ],
+    skills: ["MongoDB", "MySQL", "Mongodb-Atlas" ],
   },
   {
     name: "Tools & Technologies",

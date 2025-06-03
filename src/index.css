@@ -230,3 +230,40 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+/* tailwind.config.js me jitni needed ho utni saf styling */
+.active-link {
+  position: relative;
+  font-weight: 600;
+  color: var(--tw-prose-links);
+}
+
+.active-link::after,
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

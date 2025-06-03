@@ -178,9 +178,9 @@ const AboutSection = () => {
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Tanveer Ahmad</h3>
+              <h3 className="text-2xl font-bold">Tanveer Ahmad .Dev</h3>
               <p className="text-muted-foreground">
-                Junior MERN-Stack Developer
+                Junior MERN-Stack Developer @ TICER
               </p>
             </motion.div>
 
