@@ -1,0 +1,17 @@
+
+{
+  "name": "Tanveer Ahmad Portfolio",
+  "short_name": "Portfolio",
+  "description": "",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#2662d9",
+  "icons": [
+    {
+      "src": "//favicon.png",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
