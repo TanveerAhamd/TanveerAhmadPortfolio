@@ -140,7 +140,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="ml-3 mt-2" asChild>
-              <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
+              <a href={resumeUrl} download="Tanveer_Ahmad_Dev_CV.pdf">
                 Resume
               </a>
             </Button>
