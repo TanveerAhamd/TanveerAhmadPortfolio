@@ -12,7 +12,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 text-center md:text-left">
-            <span className="text-2xl font-bold text-primary">{"</>"}</span>
+            {/* <span className="text-2xl font-bold text-primary">{"<CodeWithTanveer/>"}</span> */}
+            <span className="text-2xl font-bold text-primary mb-10">
+                 <img src="./imgs/robotApex.png" alt="" style={{ height: "40px" }} />
+            </span>
             <p className="mt-2 text-muted-foreground max-w-md">
               Building elegant digital solutions with a focus on user experience
               and technical excellence.
@@ -21,7 +24,7 @@ const Footer = () => {
 
 
           <div className="flex flex-col items-center md:items-end">
-            <div className="flex space-x-4 mb-4">
+            <div className="flex space-x-4 mb-4 me-10">
               <a
                 href={Links.github}
                 target="_blank"

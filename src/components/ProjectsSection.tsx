@@ -36,7 +36,7 @@ const ProjectsSection = () => {
                 <LazyImage
                   src={project.image}
                   alt={project.title}
-                  imgClassName="w-full h-48 object-cover"
+                  imgClassName="w-full h-48 object-cover p-1 rounded-[10px]"
                 />
                 <div className="absolute inset-0 bg-primary/20 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                   <div className="flex space-x-4">
