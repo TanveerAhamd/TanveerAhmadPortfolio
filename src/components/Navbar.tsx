@@ -84,7 +84,7 @@ const Navbar = () => {
                   asChild
                   onClick={handledownload}
                 >
-                  <a href={resumeUrl}target="_blank" download="Tanveer_Ahmad_Dev_CV.pdf">
+                  <a href={resumeUrl} target="_blank" download="Tanveer_Ahmad_Dev_CV.pdf">
                     Resume
                   </a>
                 </Button>
